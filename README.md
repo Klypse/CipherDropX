@@ -1,19 +1,17 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Klypse/CipherDropx/main/assets/cdx-logo.png" alt="CDX Logo" width="280"/>
+  <p align="center">
+  <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=FF4444&center=true&vCenter=true&width=900&lines=CipherDropX+-+a+resilient+YouTube+deciphering+engine" alt="Typing header" />
 </p>
-
-<h1 align="center">
-  <code><strong><span style="font-size:1.2em">CipherDropX</span></strong></code>
-</h1>
-
-<p align="center">
-  <em>A modular and resilient YouTube signature deciphering engine</em>
 </p>
-
+  </p>
 <p align="center">
-  <a href="https://pypi.org/project/cipherdropx/"><img src="https://img.shields.io/pypi/v/cipherdropx?color=red&label=pypi&style=flat-square" alt="PyPI version"></a>
-  <img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=flat-square" alt="Python">
-  <img src="https://img.shields.io/github/license/Klypse/CipherDropx?style=flat-square" alt="License">
+  <a href="https://pypi.org/project/cipherdropx/">
+    <img src="https://img.shields.io/pypi/v/cipherdropx?color=red&label=pypi&style=flat-square" alt="PyPI version" style="height:28px;" />
+  </a>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=flat-square" alt="Python" style="height:28px;" />
+  <img src="https://img.shields.io/github/license/Klypse/CipherDropx?style=flat-square" alt="License" style="height:28px;" />
 </p>
 
 ---
