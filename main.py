@@ -14,8 +14,7 @@ import requests
 from cipherdropx import CipherDropX
 
 # base.js URL
-#url = "https://www.youtube.com/s/player/9fe2e06e/player_ias.vflset/ja_JP/base.js"
-url = "https://www.youtube.com/s/player/f676c671/player_ias.vflset/en_US/base.js"
+url = "https://www.youtube.com/s/player/9fe2e06e/player_ias.vflset/ja_JP/base.js"
 res = requests.get(url)
 res.raise_for_status()
 
