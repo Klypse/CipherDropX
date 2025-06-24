@@ -1,7 +1,32 @@
-# CipherDropX
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Klypse/CipherDropx/main/assets/cdx-logo.png" alt="CDX Logo" width="280"/>
+</p>
 
-**CipherDropX** is a small, dependency‑light Python library that extracts the client‑side transformation routine stored in YouTube’s `base.js` player file and applies it to any signature string.
-It does **not** execute JavaScript and does **not** rely on a browser or Node runtime – only regular‑expression parsing and a tiny in‑memory virtual machine.
+<h1 align="center">
+  <code><strong><span style="font-size:1.2em">CipherDropX</span></strong></code>
+</h1>
+
+<p align="center">
+  <em>A modular and resilient YouTube signature deciphering engine</em>
+</p>
+
+<p align="center">
+  <a href="https://pypi.org/project/cipherdropx/"><img src="https://img.shields.io/pypi/v/cipherdropx?color=red&label=pypi&style=flat-square" alt="PyPI version"></a>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/github/license/Klypse/CipherDropx?style=flat-square" alt="License">
+</p>
+
+---
+
+### 🚀 Overview
+
+**CipherDropX** is a lightweight Python library that dynamically extracts and executes transformation routines from YouTube’s `base.js` player file.  
+Unlike many tools, it:
+- 🧠 **Parses without JS runtime** – no Node.js or browser needed  
+- ⚙️ **Works offline** – just use cached `base.js` and decode anywhere  
+- 📦 **Minimal dependencies** – pure regex & logic  
+
+> Perfect for CLI tools, embedded devices, or headless batch jobs.
 
 ---
 
