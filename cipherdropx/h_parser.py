@@ -60,7 +60,7 @@ import re
 from typing import Dict, List, Tuple
 
 _PATTERN = re.compile(
-    r'var\s+(\w+)\s*=\s*"([^"]{400,}?(?:split|splice|join|reverse|length)[^"]*)"\.split\("([^"]+)"\)',
+    r'var\s+(\w+)\s*=\s*([\'"`])((?:[^\\\'"`]|\\.)+?(?:split|splice|join|reverse|length).*?)\2\s*\.split\(\s*([\'\"])([^\'\"]+)\4\s*\)',
     re.DOTALL,
 )
 
@@ -77,8 +77,9 @@ def extract_method_table(js: str) -> Tuple[str, Dict[int, str], Dict[str, int]]:
     if not m:
         raise ValueError("Unable to find H‑table in the supplied base.js")
 
-    var, raw, delim = m.groups()
-    array: List[str] = raw.split(delim)
+    var, raw, delim = m.group(1), m.group(3), m.group(5)
+    dec = bytes(raw, "utf-8").decode("unicode_escape")
+    array: List[str] = dec.split(delim)
     forward = {i: v for i, v in enumerate(array)}
     reverse = {v: i for i, v in forward.items()}
     return var, forward, reverse
