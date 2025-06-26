@@ -1,3 +1,5 @@
+<!-- Google site verification -->
+<meta name="google-site-verification" content="CDAB3nu0Q_rWU0wnwQ-3kPKRtv8g5SPqGxRlSBScqLM" />
 <p align="center">
   <img src="https://raw.githubusercontent.com/Klypse/CipherDropx/main/assets/cdx-logo.png" alt="CDX Logo" width="280"/>
   <p align="center">
